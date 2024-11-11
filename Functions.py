@@ -31,7 +31,6 @@ class Hungarian:
     
     def uniqueZero(row):
         r = row.copy()
-        r.sort()
         if(r.count(0) == 1):
             return row.index(0)
         else:
